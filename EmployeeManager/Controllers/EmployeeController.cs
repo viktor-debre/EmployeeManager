@@ -8,7 +8,7 @@ namespace EmployeeManager.Controllers;
 [Route("[controller]")]
 public class EmployeeController : ControllerBase
 {
-    private const string connectionString = "Server=localhost;Database=EployeesDB;Port=5432; User Id=postgres;Password=root";
+    private const string connectionString = "connection string";
 
     [HttpGet]
     public Employee GetEmployeeById([FromQuery] int employeeId)
