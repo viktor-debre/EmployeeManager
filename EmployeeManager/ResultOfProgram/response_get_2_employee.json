@@ -1,0 +1,22 @@
+{
+  "id": 2,
+  "name": "Alexey",
+  "managerId": 1,
+  "enabled": false,
+  "employees": [
+    {
+      "id": 5,
+      "name": "Yurii",
+      "managerId": 2,
+      "enabled": false,
+      "employees": []
+    },
+    {
+      "id": 6,
+      "name": "Viktor",
+      "managerId": 2,
+      "enabled": false,
+      "employees": []
+    }
+  ]
+}

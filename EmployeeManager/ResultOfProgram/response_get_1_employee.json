@@ -1,0 +1,44 @@
+{
+  "id": 1,
+  "name": "Andrey",
+  "managerId": null,
+  "enabled": true,
+  "employees": [
+    {
+      "id": 2,
+      "name": "Alexey",
+      "managerId": 1,
+      "enabled": false,
+      "employees": [
+        {
+          "id": 5,
+          "name": "Yurii",
+          "managerId": 2,
+          "enabled": false,
+          "employees": []
+        },
+        {
+          "id": 6,
+          "name": "Viktor",
+          "managerId": 2,
+          "enabled": false,
+          "employees": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Roman",
+      "managerId": 1,
+      "enabled": false,
+      "employees": []
+    },
+    {
+      "id": 4,
+      "name": "Dmytro",
+      "managerId": 1,
+      "enabled": true,
+      "employees": []
+    }
+  ]
+}
